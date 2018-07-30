@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B11CED32109FEF000D0A798 /* LoggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B11CED22109FEF000D0A798 /* LoggingViewController.swift */; };
 		6B29CDAE20F79D8C00A08C05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29CDAD20F79D8C00A08C05 /* AppDelegate.swift */; };
-		6B29CDB020F79D8C00A08C05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29CDAF20F79D8C00A08C05 /* ViewController.swift */; };
+		6B29CDB020F79D8C00A08C05 /* SnipsMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B29CDAF20F79D8C00A08C05 /* SnipsMainViewController.swift */; };
 		6B29CDB320F79D8C00A08C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B29CDB120F79D8C00A08C05 /* Main.storyboard */; };
 		6B29CDB520F79D8E00A08C05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B29CDB420F79D8E00A08C05 /* Assets.xcassets */; };
 		6B29CDB820F79D8E00A08C05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B29CDB620F79D8E00A08C05 /* LaunchScreen.storyboard */; };
+		6B29CDC020F79E3500A08C05 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6B29CDBF20F79E3500A08C05 /* Podfile */; };
+		6B4B369B20F7A4C600E3B1BA /* MagentoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4B369A20F7A4C600E3B1BA /* MagentoClient.swift */; };
+		6B4B36BB20F9D5EA00E3B1BA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4B36BA20F9D5EA00E3B1BA /* Item.swift */; };
+		6B4B36BD20FC6D1E00E3B1BA /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4B36BC20FC6D1E00E3B1BA /* ItemCell.swift */; };
+		6BCC353320FFA80500B2484B /* my_assistant in Resources */ = {isa = PBXBuildFile; fileRef = 6BCC353220FFA80500B2484B /* my_assistant */; };
+		6BCC35352100804E00B2484B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCC35342100804E00B2484B /* Message.swift */; };
+		6BF44302210A1A2E0059EA97 /* DrawerNavigtionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF44301210A1A2E0059EA97 /* DrawerNavigtionController.swift */; };
+		6BF44306210A31750059EA97 /* PresentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF44305210A31750059EA97 /* PresentedView.swift */; };
+		6BF44308210A3BEF0059EA97 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF44307210A3BEF0059EA97 /* OrderViewController.swift */; };
+		6BF4430A210A3C010059EA97 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF44309210A3C010059EA97 /* CartViewController.swift */; };
+		6BF4430E210AF3A40059EA97 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF4430D210AF3A40059EA97 /* RecordButton.swift */; };
+		9A3345C10E721754C2A8230B /* Pods_SnipsVoiceCommerceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DEC07035F09F68B4E8BE2C /* Pods_SnipsVoiceCommerceDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		460062BC145933BCF2B3684B /* Pods-SnipsVoiceCommerceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnipsVoiceCommerceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnipsVoiceCommerceDemo/Pods-SnipsVoiceCommerceDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6B11CED22109FEF000D0A798 /* LoggingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingViewController.swift; sourceTree = "<group>"; };
 		6B29CDAA20F79D8C00A08C05 /* SnipsVoiceCommerceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnipsVoiceCommerceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B29CDAD20F79D8C00A08C05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B29CDAF20F79D8C00A08C05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B29CDAF20F79D8C00A08C05 /* SnipsMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnipsMainViewController.swift; sourceTree = "<group>"; };
 		6B29CDB220F79D8C00A08C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B29CDB420F79D8E00A08C05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B29CDB720F79D8E00A08C05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B29CDB920F79D8E00A08C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B29CDBF20F79E3500A08C05 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B4B369A20F7A4C600E3B1BA /* MagentoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagentoClient.swift; sourceTree = "<group>"; };
+		6B4B36BA20F9D5EA00E3B1BA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		6B4B36BC20FC6D1E00E3B1BA /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		6BCC353220FFA80500B2484B /* my_assistant */ = {isa = PBXFileReference; lastKnownFileType = folder; name = my_assistant; path = SnipsVoiceCommerceDemo/my_assistant; sourceTree = "<group>"; };
+		6BCC35342100804E00B2484B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6BF44301210A1A2E0059EA97 /* DrawerNavigtionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerNavigtionController.swift; sourceTree = "<group>"; };
+		6BF44305210A31750059EA97 /* PresentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedView.swift; sourceTree = "<group>"; };
+		6BF44307210A3BEF0059EA97 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		6BF44309210A3C010059EA97 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		6BF4430D210AF3A40059EA97 /* RecordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		91DEC07035F09F68B4E8BE2C /* Pods_SnipsVoiceCommerceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnipsVoiceCommerceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A617793B91BB99AD2061B4 /* Pods-SnipsVoiceCommerceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnipsVoiceCommerceDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnipsVoiceCommerceDemo/Pods-SnipsVoiceCommerceDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3345C10E721754C2A8230B /* Pods_SnipsVoiceCommerceDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FAEE8C21F0F6503A9CF8D23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91DEC07035F09F68B4E8BE2C /* Pods_SnipsVoiceCommerceDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6B29CDA120F79D8C00A08C05 = {
 			isa = PBXGroup;
 			children = (
+				6BCC353220FFA80500B2484B /* my_assistant */,
+				6B29CDBF20F79E3500A08C05 /* Podfile */,
 				6B29CDAC20F79D8C00A08C05 /* SnipsVoiceCommerceDemo */,
 				6B29CDAB20F79D8C00A08C05 /* Products */,
+				6D3D81C4B5F6326126D36931 /* Pods */,
+				0FAEE8C21F0F6503A9CF8D23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +96,32 @@
 			isa = PBXGroup;
 			children = (
 				6B29CDAD20F79D8C00A08C05 /* AppDelegate.swift */,
-				6B29CDAF20F79D8C00A08C05 /* ViewController.swift */,
+				6B29CDAF20F79D8C00A08C05 /* SnipsMainViewController.swift */,
+				6BCC35342100804E00B2484B /* Message.swift */,
 				6B29CDB120F79D8C00A08C05 /* Main.storyboard */,
+				6BF44307210A3BEF0059EA97 /* OrderViewController.swift */,
+				6BF44309210A3C010059EA97 /* CartViewController.swift */,
 				6B29CDB420F79D8E00A08C05 /* Assets.xcassets */,
 				6B29CDB620F79D8E00A08C05 /* LaunchScreen.storyboard */,
 				6B29CDB920F79D8E00A08C05 /* Info.plist */,
+				6B4B369A20F7A4C600E3B1BA /* MagentoClient.swift */,
+				6B4B36BA20F9D5EA00E3B1BA /* Item.swift */,
+				6B4B36BC20FC6D1E00E3B1BA /* ItemCell.swift */,
+				6B11CED22109FEF000D0A798 /* LoggingViewController.swift */,
+				6BF44301210A1A2E0059EA97 /* DrawerNavigtionController.swift */,
+				6BF44305210A31750059EA97 /* PresentedView.swift */,
+				6BF4430D210AF3A40059EA97 /* RecordButton.swift */,
 			);
 			path = SnipsVoiceCommerceDemo;
+			sourceTree = "<group>";
+		};
+		6D3D81C4B5F6326126D36931 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8A617793B91BB99AD2061B4 /* Pods-SnipsVoiceCommerceDemo.debug.xcconfig */,
+				460062BC145933BCF2B3684B /* Pods-SnipsVoiceCommerceDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B29CDBC20F79D8E00A08C05 /* Build configuration list for PBXNativeTarget "SnipsVoiceCommerceDemo" */;
 			buildPhases = (
+				6DDA60014430B3922BA6EB17 /* [CP] Check Pods Manifest.lock */,
 				6B29CDA620F79D8C00A08C05 /* Sources */,
 				6B29CDA720F79D8C00A08C05 /* Frameworks */,
 				6B29CDA820F79D8C00A08C05 /* Resources */,
+				254A2D130270BDEB7CEE36E6 /* [CP] Embed Pods Frameworks */,
+				52A15508DFA9FB74D67B14FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +185,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B29CDC020F79E3500A08C05 /* Podfile in Resources */,
+				6BCC353320FFA80500B2484B /* my_assistant in Resources */,
 				6B29CDB820F79D8E00A08C05 /* LaunchScreen.storyboard in Resources */,
 				6B29CDB520F79D8E00A08C05 /* Assets.xcassets in Resources */,
 				6B29CDB320F79D8C00A08C05 /* Main.storyboard in Resources */,
@@ -130,13 +195,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		254A2D130270BDEB7CEE36E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SnipsVoiceCommerceDemo/Pods-SnipsVoiceCommerceDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AZTabBar/AZTabBar.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DrawerKit/DrawerKit.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyNotificationBadge/EasyNotificationBadge.framework",
+				"${BUILT_PRODUCTS_DIR}/SnipsPlatform/SnipsPlatform.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AZTabBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DrawerKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyNotificationBadge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnipsPlatform.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnipsVoiceCommerceDemo/Pods-SnipsVoiceCommerceDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52A15508DFA9FB74D67B14FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SnipsVoiceCommerceDemo/Pods-SnipsVoiceCommerceDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HockeySDK/HockeySDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HockeySDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnipsVoiceCommerceDemo/Pods-SnipsVoiceCommerceDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DDA60014430B3922BA6EB17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnipsVoiceCommerceDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B29CDA620F79D8C00A08C05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B29CDB020F79D8C00A08C05 /* ViewController.swift in Sources */,
+				6B4B36BB20F9D5EA00E3B1BA /* Item.swift in Sources */,
+				6BF44308210A3BEF0059EA97 /* OrderViewController.swift in Sources */,
+				6B11CED32109FEF000D0A798 /* LoggingViewController.swift in Sources */,
+				6BF44302210A1A2E0059EA97 /* DrawerNavigtionController.swift in Sources */,
+				6B29CDB020F79D8C00A08C05 /* SnipsMainViewController.swift in Sources */,
+				6B4B369B20F7A4C600E3B1BA /* MagentoClient.swift in Sources */,
+				6BCC35352100804E00B2484B /* Message.swift in Sources */,
+				6BF4430A210A3C010059EA97 /* CartViewController.swift in Sources */,
+				6BF4430E210AF3A40059EA97 /* RecordButton.swift in Sources */,
+				6BF44306210A31750059EA97 /* PresentedView.swift in Sources */,
 				6B29CDAE20F79D8C00A08C05 /* AppDelegate.swift in Sources */,
+				6B4B36BD20FC6D1E00E3B1BA /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +420,12 @@
 		};
 		6B29CDBD20F79D8E00A08C05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A617793B91BB99AD2061B4 /* Pods-SnipsVoiceCommerceDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T6DDXFEVR3;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SnipsVoiceCommerceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,10 +440,12 @@
 		};
 		6B29CDBE20F79D8E00A08C05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460062BC145933BCF2B3684B /* Pods-SnipsVoiceCommerceDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T6DDXFEVR3;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SnipsVoiceCommerceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
